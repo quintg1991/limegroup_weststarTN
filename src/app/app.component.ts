@@ -15,11 +15,67 @@ export class AppComponent {
       url: '/home',
       icon: 'home'
     },
+    // {
+    //   title: 'List',
+    //   url: '/list',
+    //   class: 'fas',
+    //   icon: 'list'
+    // }
     {
-      title: 'List',
-      url: '/list',
-      icon: 'list'
-    }
+      title: 'Cost and Benefits',
+      url: '/cost',
+      icon: 'money-bill-alt'
+    },
+    {
+      title: 'Mission, Vision, & History',
+      url: '/missionVisionHistory',
+      icon: 'monument'
+    },
+    {
+      title: 'Corporate Sponsors',
+      url: '/sponsors',
+      icon: 'building'
+    },
+    {
+      title: 'Program Leaders',
+      url: '/leaders',
+      icon: 'user-friends'
+    },
+    {
+      title: 'Class',
+      url: '/class',
+      icon: 'user-graduate'
+    },
+    {
+      title: 'WestTeach',
+      url: '/westTeach',
+      icon: 'file'
+    },
+    {
+      title: 'Alumni',
+      url: '/alumni',
+      icon: 'star'
+    },
+    {
+      title: 'Board of Trustees',
+      url: '/trustees',
+      icon: 'user-tie'
+    },
+    {
+      title: 'Testimonials',
+      url: '/testimonials',
+      icon: 'comment'
+    },
+    {
+      title: 'Social Media',
+      url: '/socialMedia',
+      icon: 'share-square'
+    },
+    {
+      title: 'Contact',
+      url: '/contact',
+      icon: 'phone'
+    },
   ];
 
   constructor(
