@@ -1,9 +1,24 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>sponsors</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Corporate Sponsors
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <ion-list padding>
+    <ion-list>
+      <ion-list-header>
+        We appreciate the following businesses for their financial contributions which help the WestStar Leadership
+        Program continue to be successful!
+      </ion-list-header>
+      <ion-item *ngFor="let sponsor of sponsors">
+        {{sponsor.name}}
+      </ion-item>
+    </ion-list>
+  </ion-list>
 </ion-content>

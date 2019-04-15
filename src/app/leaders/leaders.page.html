@@ -1,9 +1,18 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>leaders</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Program Leaders
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <ion-list>
+    <ion-item *ngFor="let leader of leaders" (click)="pushPage(leader)" routerDirection="forward">
+      {{leader.fname}} {{leader.lname}}: {{leader.company}}
+    </ion-item>
+  </ion-list>
 </ion-content>

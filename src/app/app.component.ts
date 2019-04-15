@@ -23,12 +23,12 @@ export class AppComponent {
     // }
     {
       title: 'Cost and Benefits',
-      url: '/cost',
+      url: '/cost-benefits',
       icon: 'money-bill-alt'
     },
     {
       title: 'Mission, Vision, & History',
-      url: '/missionVisionHistory',
+      url: '/mission-vision-history',
       icon: 'monument'
     },
     {
@@ -48,7 +48,7 @@ export class AppComponent {
     },
     {
       title: 'WestTeach',
-      url: '/westTeach',
+      url: '/west-teach',
       icon: 'file'
     },
     {

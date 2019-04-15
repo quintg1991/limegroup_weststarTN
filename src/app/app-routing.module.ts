@@ -26,7 +26,8 @@ const routes: Routes = [
   { path: 'trustees', loadChildren: './trustees/trustees.module#TrusteesPageModule' },
   { path: 'testimonials', loadChildren: './testimonials/testimonials.module#TestimonialsPageModule' },
   { path: 'social-media', loadChildren: './social-media/social-media.module#SocialMediaPageModule' },
-  { path: 'contact', loadChildren: './contact/contact.module#ContactPageModule' }
+  { path: 'contact', loadChildren: './contact/contact.module#ContactPageModule' },
+  { path: 'leaders-detail/:leader', loadChildren: './leaders-detail/leaders-detail.module#LeadersDetailPageModule' }
 ];
 
 @NgModule({

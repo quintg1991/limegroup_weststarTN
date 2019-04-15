@@ -1,5 +1,7 @@
 {
   "name": "weststar",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

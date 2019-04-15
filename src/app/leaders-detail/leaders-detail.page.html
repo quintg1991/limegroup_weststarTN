@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-back-button defaultHref="/"></ion-back-button>
+      <ion-title>{{leader.fname}} {{leader.lname}}</ion-title>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card padding>
+    <ion-card-content>
+      <strong>Title: </strong> {{leader.title}}
+    </ion-card-content>
+    <ion-card-content>
+      <strong>Company: </strong> {{leader.company}}
+    </ion-card-content>
+    <ion-card-content>
+      <strong>Email: </strong> <a href="mailto:{{leader.email}}">{{leader.email}}</a>
+    </ion-card-content>
+    <ion-card-content>
+      <strong>Phone: </strong> <a href="tel:{{leader.phone}}">{{leader.phone}}</a>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
